@@ -1,4 +1,4 @@
-export async function getStaticProps() {
+export function getStaticProps() {
     return {
         props: {
             revalidate: 7,
