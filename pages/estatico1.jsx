@@ -4,9 +4,9 @@ export default function estatico1() {
 
     const [num, setNum] = useState(0);
 
-    useEffect(() => {
-        setNum(Math.random())
-    },[])
+    // useEffect(() => {
+    //     setNum(Math.random())
+    // },[])
 
     return (
         <div>
