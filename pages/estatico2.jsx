@@ -1,7 +1,16 @@
-export default function estatico2() {
+export function getStaticProps() {
+    return {
+        props: {
+            numero: Math.random()
+        }
+    }
+}
+
+export default function estatico2(props) {
     return (
         <div>
-            <h1>Esta</h1>
+            <h1>Estatico #02</h1>
+            <h2>{props.numero}</h2>
         </div>
     )
 } 
