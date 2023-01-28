@@ -1,9 +1,9 @@
-export async function getStaticProps() {
+export async function getStaticProps() { // método do servidor
+
+    console.log("[Server] gerando props para o componente....")
 
     const response = await fetch("http://localhost:3000/api/produtos");
     const produtos = await response.json()
-
-    console.log(produtos);
 
     return {
         props: {
@@ -13,7 +13,7 @@ export async function getStaticProps() {
 }   
 
 export default function estatico2(props) {
-    console.log(props);
+    console.log("[client] renderizando o componente...");
     return (
         <div>
             <h1>Estatico #04</h1>
