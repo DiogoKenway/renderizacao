@@ -9,7 +9,7 @@ export async function getStaticProps() { // método do servidor
         props: {
             produtos
         }
-    }
+    };
 }   
 
 export default function estatico2(props) {
