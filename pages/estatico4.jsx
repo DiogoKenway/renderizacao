@@ -33,4 +33,3 @@ export default function estatico2(props) {
         </div>
     )
 } 
-
