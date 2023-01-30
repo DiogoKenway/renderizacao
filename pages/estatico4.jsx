@@ -27,7 +27,6 @@ export default function estatico2(props) {
                             preço: {produto.preco}
                             </div>
                         </li>
-                        
                     ))
                 }
             </ul>
