@@ -12,7 +12,6 @@ export async function getStaticProps() { // método do servidor
     };
 }   
 
-
 export default function estatico2(props) {
     console.log("[client] renderizando o componente...");
     return (
