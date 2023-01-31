@@ -10,6 +10,7 @@ export async function getStaticProps() { // método do servidor
             produtos
         }
     };
+    
 }   
 
 export default function estatico2(props) {
