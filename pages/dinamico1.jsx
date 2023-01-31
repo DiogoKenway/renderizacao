@@ -1,5 +1,5 @@
 export function getServerSideProps() {
-    console.log("[Server] gerando props para o componente....")
+    console.log("[Server] Atualizara quando a pagina for renderizada....")
 
     return {
         props: {
