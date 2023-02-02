@@ -1,4 +1,4 @@
-export async function getStaticProps() { // método do servidor
+export async function getServerSideProps() { // método do servidor
 
     console.log("[Server] gerando props para o componente....")
 
@@ -13,11 +13,11 @@ export async function getStaticProps() { // método do servidor
 }   
 
 
-export default function estatico2(props) {
+export default function Dinamico2(props) {
     console.log("[client] renderizando o componente...");
     return (
         <div>
-            <h1>Estatico #04</h1>
+            <h1>Dinâmico #02</h1>
             <ul>
                 {
                     props.produtos.map(produto => (
