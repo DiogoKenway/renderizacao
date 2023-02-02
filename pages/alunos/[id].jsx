@@ -4,7 +4,7 @@ export async function getStaticPaths() {
     const ids = await resp.json();
 
     const paths = ids.map(id => {
-        return { params: { id } }
+        return { params: { id: `${id}` } }
     });
 
     return {
