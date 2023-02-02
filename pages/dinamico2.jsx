@@ -1,4 +1,4 @@
-export async function getStaticProps() { // método do servidor
+export async function getServerSideProps() { // método do servidor
 
     console.log("[Server] gerando props para o componente....")
 
