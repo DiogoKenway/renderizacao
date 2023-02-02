@@ -1,3 +1,7 @@
+function numeroAleatorio(min = 1, max = 1000) {
+    return (Math.random() * (max - min)) + min;
+}
+
 
 export default function handler(req, res) {
     res.status(200).json([
